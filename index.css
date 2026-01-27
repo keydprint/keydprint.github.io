@@ -129,6 +129,9 @@ p {
 .topbtn:hover{
     border-color: rgba(241, 135, 1, 0.5);
 }
+.topbtn:active{
+    background-color: rgba(241, 135, 1, 0.5);
+}
 
 /* Button Style */
 .about-btn {
@@ -162,11 +165,15 @@ p {
     border-radius: 10px;
 }
 .video{
-    width: 210px;
+    width: 210px;/*woaaahhh*/
     height: 152px;
     margin: auto;
     background-color: #7678ed3e;
     border-style: inset;
     border-color: rgb(243, 91, 4);
-    border-radius: 10px;
+    border-radius: 20px;
 }
+#accounts{
+    margin: auto;
+}
+
