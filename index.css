@@ -120,7 +120,8 @@ p {
 /*top button which is just button box but on the top of the page*/
 .topbtn{
     border-color: rgb(241, 135, 1);
-    border-style: outset;
+    /*border-style: outset;*/
+    border-bottom-style: solid;
     border-radius: 5px;
 }
 .btnbox p:hover{
