@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KeyD print</title>
+
 </head>
 <body>
     <div class="webcontent">
@@ -50,9 +52,36 @@
         </section>
         <!--sosiale medier går her nede, vi kan legge videoer og slik der-->
         <section id="socials">
-            <div class="article"> <!--dette kommer nok til å kreve noen gode detaljer-->
-                <h1>Hva skjer på våre sosiale medier nå?</h1>
+            <div class="navtab">
+            <div class="soctab">
+                <div class="tsn" id="st"> <!-- top social tab-->
+                    <ul>
+                    <button class="scmbtn" onclick="opentab(event, 'one')"><p>Youtube</p></button>
+                    <button class="scmbtn" onclick="opentab(event, 'two')"><p>Instagram</p></button>
+                    <button class="scmbtn" onclick="opentab(event, 'three')"><p>Snapchat</p></button>
+                    </ul>
+                </div>
+                <div class="soscont" id="st">
+                    <!--two containers-->
+                    <div class="tabcontent" id="one">
+                        <!--this is where the different contents will go of our socials -hello inspector ;)-->
+                        <h1>Youtube</h1>
+                        <p>Dette er vår Youtube
+                            <br> <!--dette er en veldig lang linje beklager gay folk jeg måtte teste hvor lang denne teksten kan bli så v får se, men dette var hvist ikke lang nok nei så vi må fortsette å skrive-->
+                        </p>
+                    </div>
+                    <div class="tabcontent" id="two">
+                        <!--this is where the different contents will go of our socials -hello inspector ;)-->
+                        <p>Dette er vår Instagram</p>
+                    </div>
+                    <div class="tabcontent" id="three">
+                        <!--this is where the different contents will go of our socials -hello inspector ;)-->
+                        <p>Dette er vår Snapchat</p>
+                    </div>
+                </div>
             </div>
+            
+        </div>
         </section>
         <!--Nyheter i bedriften hvor vi deler info med kunder om diverse ting.-->
         <section id="news">

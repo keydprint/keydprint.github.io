@@ -1,0 +1,8 @@
+i am making a navigational tool on the keydprint website, and this will work for our socials and our most recent news
+in addition our products might get this table like 
+
+09.21 the javascript seems to be ready for its purpose
+
+10:06 the conclusion is this body > webcontent > navtab > soctab >
+tsn > scmbtn
+13:00 tabcontent is established in soctab, but then i realized that tabcontent comes after something else so now its soscont

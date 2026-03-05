@@ -1,3 +1,7 @@
+/*webcontent finally we're getting a bit organized here*/
+.webcontent{
+    height: 100%;
+}
 /* General Reset */
 * {
     box-sizing: border-box;
@@ -66,9 +70,7 @@ body {
     background-image: linear-gradient(145deg, rgb(241, 135, 1), rgb(243, 91, 4));
 }
 
-.webcontent{
-    height: 100%;
-}
+
 
 /* Remove ugly link colors */
 .topnav a,
@@ -237,5 +239,88 @@ p {
     border-radius: 0.5vw; 
     color: rgb(255, 255, 255, 1);
     cursor: pointer;
+}
+/*below is reserved for some scmtab things*/
+.navtab{
+    padding-top: 5vw; align-items: center;
+    border-style: none;
+}
+.soctab{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    border-style: none;
+    padding: 1vw;
+}
+.soctab #st{
+    /*kfdas*/ margin: auto;
+    width: 70%; 
+    margin-bottom: 0; 
+    margin-top: 0; 
+    gap: 1vw; 
+    padding: 0.5vw; 
+    border-style: none;
+}
+.tsn{
+    background-color:rgba(61, 52, 139, 1);
+    width: 90%;
+    margin: auto;
+    border-top-left-radius: 1vw; border-top-right-radius: 1vw;
+    
+    
+    
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    
+    
+}
+.soscont{
+    height: 14vw;
+    background-color: rgba(118, 120, 237, 1);
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+.tsn .scmbtn{
+    padding: 0.31vw;
+    width: 5vw;
+    text-align: center;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 0.51vw;
+}
+button{
+    transition: background-color 0.3;
+}
+button:hover{
+    background-color: rgba(118, 120, 237, 1);
+}
+button:active{
+    background-color: rgb(61, 52, 139);
+}
+.scmbtn p{
+    font-size: 100%;
+}
+/*tabcontent editing*/
+.tabcontent{
+    /**/
+    
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 97%;
+    height: 13.2vw;
+    /*borders*/
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: rgb(61, 52, 139);
+}
+.tabcontent p{
+    font-size: 1vw;
+}
+.tabcontent h1, .tabcontent h2, .tabcontent h3, .tabcontent h4
+{
+    font-size: 2vw;
 }
 
