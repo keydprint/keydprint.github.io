@@ -49,7 +49,7 @@
     padding: 20px;
 }
 .imgatc img{
-    width: 100%; border-radius: 2rem;
+    border-radius: 2rem;
     border-style: inset; border-color: rgba(118, 120, 237, 0);
 }
 .atcpht{
@@ -59,25 +59,38 @@
     width: 20vw;
 }
 .atcpht #ppp, #ppp img{
-    width: 20vw;
+    width: 20rem;
+    margin: auto;
+}
+#produkter img{
+    width: 16rem; 
+}
+#tinker #ppp, #tinker img{
+    margin-bottom: 3rem;
 }
 .atcpht p{
     width: 50%;
 }
 .imgatc{/*image article*/
-    width: 90%;
+    width: 5rem;
     border-radius: 5%;
     margin: auto;
     text-align: center;
-    padding: 2%;
-    display: flex;
+    padding: 0;
+    margin-bottom: 3rem;
     justify-content: center;
     align-items: center;
-    gap: 15%;
+    gap: 1rem;
     /*background-color: #7678ed3e*/
 }
+.imgatc a{
+    width: 50%; margin: auto;
+}
 img{
-    border-radius: 80px;
+    border-radius: 8rem; 
+}
+.imgatc{
+    justify-items: center;
 }
 .reklamebilde{
     margin-top: 50px;
@@ -104,6 +117,10 @@ body {
     align-items: center;        /* Align vertically */
     gap: 20px;                  /* Space between items */
     background-image: linear-gradient(145deg, rgb(241, 135, 1), rgb(243, 91, 4));
+    overflow-x: auto;   /* enable horizontal scroll */
+    overflow-y: hidden; /* block vertical scroll */ 
+    white-space: nowrap; /* prevent wrapping */
+
 }
 
 
@@ -160,6 +177,13 @@ p {
     font-size: 1.2rem;
     font-weight: 200;
 }
+ .imgatc{
+    display: grid; width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: auto; justify-content: center;
+    gap: 2px;
+}
+
 
 /* Button Menu */
 .btnmen {
@@ -307,13 +331,13 @@ p {
     padding: 1vw;
 }
 .postimg{
-    width: 14vw; text-align: center;
+    width: 14rem; text-align: center;
     border-radius: 3vw;
 }
 
 .soctab #st{
     /*kfdas*/ margin: auto;
-    width: 70%; 
+    width: 100%; 
     margin-bottom: 0; 
     margin-top: 0; 
     gap: 1vw; 
@@ -322,7 +346,7 @@ p {
 }
 .tsn{
     background-color:rgba(61, 52, 139, 1);
-    width: 90%;
+    width: 100%;
     margin: auto;
     border-top-left-radius: 1vw; border-top-right-radius: 1vw;
     
@@ -375,11 +399,20 @@ button:active{
     border-style: solid;
     border-color: rgb(61, 52, 139);
 }
-.tabcontent p, .tabcontent2 p{
-    font-size: 1vw;
+.tabcontent .article{
+    padding: 0%;
 }
-.tabcontent h1, .tabcontent h2, .tabcontent h3, .tabcontent h4, .tabcontent2 h1, .tabcontent2 h2, .tabcontent2 h3, .tabcontent2 h4
+.tabcontent p, .tabcontent2 p{
+    font-size: 2rem; font-weight: 200;
+}
+.tabcontent h1
 {
-    font-size: 2vw;
+    font-size: 3rem; font-weight: 600;
+}
+.tabcontent h2{
+    font-size: 2.5rem; font-weight: 500;
+}
+.tabcontent h3{
+    font-size: 2.3rem; font-weight: 350;
 }
 
